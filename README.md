@@ -1,7 +1,7 @@
 # Project Description: Gold recovery optimization
 
 <p align="center">
-<img src="../datasets/cover.png" width="500px">
+<img src="datasets/cover.png" width="500px">
 </p>
 
 In this project, we are going to build a model, which will help to optimize the production gold production and eliminate unprofitable parameters. The model should predict the amount of gold recovered from gold ore when specific parameters are used. We have been provided the data on extraction and purification stages of gold.
