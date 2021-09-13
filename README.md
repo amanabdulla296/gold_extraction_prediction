@@ -69,3 +69,4 @@ Example: `rougher.input.feed_ag`:
 - output — product parameters
 - state — parameters characterizing the current state of the stage
 - calculation — calculation characteristics
+- 
