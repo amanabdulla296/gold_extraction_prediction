@@ -1,24 +1,26 @@
-# Gold recovery prediction
+# Project Description: Gold recovery optimization
+<p align="center">
+<img scr="https://user-images.githubusercontent.com/56832126/126863958-e84b07d8-3e2e-426c-b5c0-82b526fecda1.png" width="500px">
+</p>
 
-![image](https://user-images.githubusercontent.com/56832126/126863958-e84b07d8-3e2e-426c-b5c0-82b526fecda1.png)
-
-In this project, we are going to build a model, which will help to optimize the production gold production and eliminate unprofitable parameters. The model should predict the amount of gold recovered from gold ore. We have been provided the data on extraction and purification stages of gold.
+In this project, we are going to build a model, which will help to optimize the production gold production and eliminate unprofitable parameters. The model should predict the amount of gold recovered from gold ore when specific parameters are used. We have been provided the data on extraction and purification stages of gold.
 
 **We need to predict two values:**
 - rougher concentrate recovery `rougher.output.recovery`
 - final concentrate recovery `final.output.recovery`
 
 
-For these we will perform following steps:
-- Prepare the data;
-- Perform data analysis;
-- Develop and train a model.
+## Table of Contents:
+- **Load the data.**
+- **Perform data analysis.**
+- **Develop and train a model.**
 
 
+## Data Description
 The data is stored in three files:
-- /datasets/gold_recovery_train.csv
-- /datasets/gold_recovery_test.csv
-- /datasets/gold_recovery_full.csv
+- ```../datasets/gold_recovery_train.csv```
+- ```../datasets/gold_recovery_test.csv```
+- ```../datasets/gold_recovery_full.csv```
 
 Data is indexed with the date and time of acquisition (`date` feature). Parameters that are next to each other in terms of time are often similar.
 
@@ -26,7 +28,7 @@ Some parameters are not available because they were measured and/or calculated m
 The source dataset contains the training and test sets with all the features.
 You have the raw data that was only downloaded from the warehouse. Before building the model, check the correctness of the data.
 
-### Data description
+### Details about the data
 **Technological process**
 
 - Rougher feed — raw material
